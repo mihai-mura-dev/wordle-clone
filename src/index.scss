@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(24, 24, 24);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+	width: fit-content;
+	height: fit-content;
+	display: grid;
+	grid-template-areas:
+		'w11 w12 w13 w14 w15'
+		'w21 w22 w23 w24 w25'
+		'w31 w32 w33 w34 w35'
+		'w41 w42 w43 w44 w45'
+		'w51 w52 w53 w54 w55'
+		'w61 w62 w63 w64 w65';
+	grid-gap: 10px;
+}
+
+.box {
+	width: 70px;
+	height: 70px;
+	border: solid 1px rgb(129, 129, 129);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2rem;
+}
+
+.w11 {
+	grid-area: w11;
+}
+.w12 {
+	grid-area: w12;
+}
+.w13 {
+	grid-area: w13;
+}
+.w14 {
+	grid-area: w14;
+}
+.w15 {
+	grid-area: w15;
+}
+.w21 {
+	grid-area: w21;
+}
+.w22 {
+	grid-area: w22;
+}
+.w23 {
+	grid-area: w23;
+}
+.w24 {
+	grid-area: w24;
+}
+.w25 {
+	grid-area: w25;
+}
+.w31 {
+	grid-area: w31;
+}
+.w32 {
+	grid-area: w32;
+}
+.w33 {
+	grid-area: w33;
+}
+.w34 {
+	grid-area: w34;
+}
+.w35 {
+	grid-area: w35;
+}
+.w41 {
+	grid-area: w41;
+}
+.w42 {
+	grid-area: w42;
+}
+.w43 {
+	grid-area: w43;
+}
+.w44 {
+	grid-area: w44;
+}
+.w45 {
+	grid-area: w45;
+}
+.w51 {
+	grid-area: w51;
+}
+.w52 {
+	grid-area: w52;
+}
+.w53 {
+	grid-area: w53;
+}
+.w54 {
+	grid-area: w54;
+}
+.w55 {
+	grid-area: w55;
+}
+.w61 {
+	grid-area: w61;
+}
+.w62 {
+	grid-area: w62;
+}
+.w63 {
+	grid-area: w63;
+}
+.w64 {
+	grid-area: w64;
+}
+.w65 {
+	grid-area: w65;
+}
+
+.green {
+	background-color: #538d4e;
+}
+
+.grey {
+	background-color: #3a3a3c;
+}
+.orange {
+	background-color: #b59f3b;
+}
